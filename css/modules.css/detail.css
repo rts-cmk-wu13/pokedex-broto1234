@@ -1,0 +1,141 @@
+.wrapper {
+  width: 90%;
+  margin: 1rem auto;
+  background-color: var(--clr-bug);
+  padding-block-end: 1rem;
+}
+
+.detail__header {
+  position: relative;
+  height: 15rem;
+}
+
+/* .detail__background {
+  float: right;
+  width: 14rem;
+  /* height: 15rem; */
+  /*padding-block-start: 3rem;  
+  padding-inline-end: 2rem;
+} */
+
+.detail__logo {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--clr-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.detail__arrowPokename {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.detail__heading {
+  text-transform: capitalize;
+}
+
+.detail__arrow {
+  cursor: pointer;
+}
+
+
+.main {
+  width: 95%;
+  margin-inline: auto;
+  background-color: var(--clr-white);
+  text-align: center;
+  border-radius: 1rem;
+  /* margin-block: 1rem; */
+}
+
+.main__iconImage {
+  /* width: 90%; */
+  /* margin-inline: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  
+}
+
+.icon--left, .icon--right {
+  font-size: 2rem;
+  color: var(--clr-white);
+  margin-block-start: -10rem;
+  cursor: pointer;
+  z-index: 2222;
+}
+
+.detail__img {
+  width: 15rem;
+  margin-block-start: -11rem;
+}
+
+.main__firstSec {
+  /* margin-block-start: -2rem; */
+}
+
+.main__lists {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.list__item {
+  color: var(--clr-white);
+  padding: 0.2rem 1rem;
+  border: none;
+  border-radius: 0.9rem;
+  background-color: var(--clr-bug);
+  margin-block-end: 1rem;
+}
+
+.main__header, .base__header {
+  color: var(--clr-bug);
+}
+
+.main__weight {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-block: 1rem;
+}
+
+.height--border {
+  padding-inline: 1rem;
+  border-width: 0 2px;
+  border-style: solid;
+  border-color: var(--clr-light);
+}
+
+.base {
+  width: 80%;
+  margin-inline: auto;
+
+  /* text-align: center; */
+}
+
+.base__lists {
+  /* width: 60rem; */
+  padding-block: 1rem;
+}
+
+.base__item {
+  display: flex;
+  gap: 1rem;
+}
+
+.base__name {
+  width: 13rem;
+  text-align: start;
+}
+
+.base__progress {
+  width: 100%;
+}
