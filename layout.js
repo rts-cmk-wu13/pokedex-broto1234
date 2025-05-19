@@ -5,15 +5,9 @@ divElm.id = "root";
 divElm.className = "index--wrapper";
 
 divElm.innerHTML = `
-  <header class="header">
-    
-  </header> 
-
+  <header class="header"></header> 
   <main class="main"></main>
-
-  <footer class="footer">
-    Pokemane - 2025
-  </footer>
+  <footer class="footer">Pokemane - 2025; Cerated by - Satyobroto Talukder</footer>
 `;
 bodyElm.append(divElm);
 

@@ -1,4 +1,6 @@
 const bodyElm = document.querySelector("body");
+console.log(bodyElm);
+
 
 //1. Get the query string from the URL
 const search = location.search;
@@ -22,6 +24,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
     
     const divElm = document.createElement("div");
     divElm.className = "wrapper";
+    divElm.style.backgroundColor = `var(--clr-${data.types[0].type.name})`;
 
     divElm.innerHTML = `
       <header class="detail__header">
@@ -43,7 +46,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
           <ul class="main__lists">
             ${data.types.map( tp => 
               `
-                <li class="list__item">${tp.type.name}</li>
+                <li class="list__item ${tp.type.name}">${tp.type.name}</li>
               `
             ).join("")}
           </ul>
